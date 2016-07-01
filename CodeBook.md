@@ -26,7 +26,7 @@
 5.activity_labels.txt - Links the class labels with their activity name.
 
 
-##Following steps have been applied to the dataset.
+##Following steps/transformations have been applied to the dataset.
 
 1.Merges the training and the test sets to create one data set.
 
@@ -41,3 +41,15 @@
 The script to perform the above actions can be found on the following link.
 
 https://github.com/samkamiru/Getting-and-Cleaning-Data/blob/master/run_analysis.R
+
+##Achieving the results
+
+Load test and train data
+
+load data labels .i.e. features and activity
+
+Extract the mean and STDev columns name and data.
+
+Merge the datasets 
+
+Output the dataset in a tab delimited text file and named tidy_data.txt
